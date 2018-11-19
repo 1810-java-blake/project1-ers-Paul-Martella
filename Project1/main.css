@@ -1,0 +1,75 @@
+.button_login {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    cursor: pointer;
+
+}
+
+.login-signup {
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+  }
+
+.form_field {
+    border: table_gray;
+    color: gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+
+}
+
+.form-wrap{
+    width: 35%;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.margin{
+    margin: 8px;
+}
+
+.textarea{
+    width: 20%;
+
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(221, 112, 23);
+    padding: 0px;
+    height: 400px;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item-main {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 80px;
+    font-size: 40px;
+    text-align: center;
+}

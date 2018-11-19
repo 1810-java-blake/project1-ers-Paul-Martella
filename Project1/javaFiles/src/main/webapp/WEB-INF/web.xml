@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Project1</display-name>
+  <servlet>
+    <description></description>
+    <display-name>LoginServelet</display-name>
+    <servlet-name>LoginServelet</servlet-name>
+    <servlet-class>com.revature.servelets.LoginServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServelet</servlet-name>
+    <url-pattern>/LoginServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddReimbServelet</display-name>
+    <servlet-name>AddReimbServelet</servlet-name>
+    <servlet-class>com.revature.servelets.AddReimbServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddReimbServelet</servlet-name>
+    <url-pattern>/AddReimbServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckStatusServelet</display-name>
+    <servlet-name>CheckStatusServelet</servlet-name>
+    <servlet-class>com.revature.servelets.CheckStatusServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckStatusServelet</servlet-name>
+    <url-pattern>/CheckStatusServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestStatusServelet</display-name>
+    <servlet-name>RequestStatusServelet</servlet-name>
+    <servlet-class>com.revature.servelets.RequestStatusServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestStatusServelet</servlet-name>
+    <url-pattern>/RequestStatusServelet</url-pattern>
+  </servlet-mapping>
+</web-app>
